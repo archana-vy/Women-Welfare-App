@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:layout_weight="1"
+        android:background="#9FA8DA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="BANKING INFORMATION" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="349dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:background="#9FA8DA"
+        android:text="BANK EXAM DETAILS" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="342dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:background="#9FA8DA"
+        android:text="BANKING TRANSAVTIONS" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="340dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp"
+        android:background="#9FA8DA"
+        android:text="INVESTMENTS" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:background="#9FA8DA"
+        android:text="BANKING JOB VACCANCIES" />
+</RelativeLayout>

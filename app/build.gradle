@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.mwcd.activity"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        multiDexEnabled true
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+      implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:support-v13:26.1.0'
+    implementation 'org.jsoup:jsoup:1.11.2'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'fr.sii.ogham:ogham-all:2.0.0'
+    compile 'com.google.guava:guava:23.3-android'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
+}
+
+android { configurations.all { resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9' } }

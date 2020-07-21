@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MWCD</string>
+    <string name="website">http://nari.nic.in/</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string-array name="categories">
+        <item>Single</item>
+
+    </string-array>
+</resources>
